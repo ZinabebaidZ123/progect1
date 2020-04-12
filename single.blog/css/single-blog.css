@@ -1,0 +1,431 @@
+/*css for */
+.container
+{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top: 60px;
+margin: auto;
+width: 1250px;
+margin-bottom: 60px;
+}
+
+.container .div1 
+{
+position: relative;
+font-family: arial;
+}
+.container .div1 a
+{
+text-decoration: none;
+transition: 0.3s;
+cursor: pointer;
+}
+.container .div1 a:hover
+{
+color: #4169E1;
+}
+.container .div1 h5
+{
+position:absolute;
+left: 90px;bottom: 255px;
+color: #A9A9A9;
+
+}
+
+.container .div1 h3
+{
+position: absolute;left: 90px;
+bottom: 230px;
+color: #696969;
+}
+
+.container .div1 img
+{
+margin-top: 30px;
+margin-left: 10px;
+}
+
+.container .div2
+{
+left: 60px;
+position: relative;
+}
+
+.container .div2 a
+{
+text-decoration: none;
+transition: 0.3s;
+cursor: pointer;
+}
+
+.container .div2 a:hover
+{
+color: #4169E1;
+}
+.container .div2 img
+{
+margin-top:30px;
+margin-left: 160px;
+}
+
+.container .div2 h5
+{
+color: #A9A9A9;
+position: absolute;
+bottom: 255px;
+left: 60px;
+}
+
+.container .div2 h3
+{
+color: #696969;
+position: absolute;
+bottom: 230px;
+}
+
+.container .div3
+{
+background-color: #f8f8f8;
+height: 310px;
+width: 
+}
+
+.container .div3 input[type="text"]
+{
+margin-left: 25px;
+margin-top: 10px;
+color: #A9A9A9;
+font-family: arial;
+text-align: center;
+width: 30px;
+height: 15px;
+border: none;
+cursor: pointer;
+transition: 0.3s;
+width: 80px;
+height: 15px;
+padding: 10px;
+}
+
+.container .div3 input[type="text"]:hover
+{
+color: #fff;
+background-color: #4169E1;
+}
+
+.container .div3 hr
+{
+color: #f8f8f8;
+margin-bottom: 30px;
+}
+
+.container .div3 h3
+{
+font-family: arial;
+color: #696969;
+margin-left: 30px;
+margin-top: 30px;
+margin-bottom:20px;
+}
+
+/*css for harvard section*/
+.harvard
+{position: relative;
+background-color: #f8f8f8;
+width: 730px;
+height: 250px;bottom: 130px;left: 60px;
+}
+.harvard p
+{
+margin-top: 30px;
+color: #A9A9A9;
+font-family: sans-serif;
+padding: 20px;
+position: absolute;bottom: 90px;
+left: 130px;
+}
+.harvard h3
+{
+position: absolute;
+left: 145px;
+bottom: 165px;
+color:  #696969;
+font-weight: bold;
+
+}
+.harvard img
+{
+margin-left: 30px;
+position: absolute;
+top: 60px;
+}
+/*css for insta section*/
+.insta
+{
+background-color: #f8f8f8;
+height: 310px;
+position: absolute;
+left: 885px;
+top: 330px;width: 410px;
+}
+
+.insta h3
+{
+margin-left:20px;
+margin-top: 20px;
+font-family: arial;
+color: #696969;
+margin-bottom: 20px; 
+}
+
+.insta img
+{
+margin-left: 20px;
+margin-top: 20px;
+
+}
+/*css for comments section*/
+.comments
+{
+margin-left: 30px;
+position: relative;
+top: 40px;
+font-family: arial;
+
+}
+
+.comments .first-part p
+{
+position: absolute;
+left: 160px;
+bottom: 295px;
+color: #696969;
+}
+.comments .second-part p
+{
+position: absolute;
+left: 160px;
+bottom: 170px;
+color: #696969;
+}
+.comments  p
+{
+padding: 10px;
+}
+.comments .third-part p
+{
+position: absolute;
+left: 160px;
+bottom: 30px;
+color: #696969;
+}
+.comments .span1 
+{
+font-size: 18px;
+color: #696969;
+font-weight: bold;
+}
+.comments .span2
+{
+color: $696969;
+font-size: small;
+font-weight: lighter;
+} 
+
+.comments img
+{
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 60px;
+}
+.comments h2
+{
+position: absolute;
+bottom: 420px;
+color: #696969;
+margin-left: 50px;
+}
+/*css for form section*/
+.form
+{
+
+background-color: #f8f8f8;
+height: 310px;
+position: absolute;
+left: 885px;
+top: 670px;width: 410px;
+
+}
+.form h2
+{
+margin-left: 30px;    
+margin-bottom: 30px;
+margin-top: 30px;
+}
+.form input[type="text"]
+{
+
+border:none; 
+width:345px;
+height: 45px;
+margin-bottom: 15px;
+color: #A9A9A9;
+padding: 15px;
+margin-top: 30px;
+margin-left: 30px;
+}
+.form  input[type="btn"]
+{
+width: 275px;
+height:55px;
+color: #4169E1;
+border-color: #4169E1;
+background-color: #fff;
+cursor: pointer;
+text-align: center;
+margin-left: 30px;
+}
+.form  input[type="btn"]:hover
+{
+border: none;
+color: #fff;
+background-color: #4169E1;
+}
+/*css for reply section*/
+.reply
+{
+margin-left: 120px; 
+font-family:arial;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+
+.reply h1
+{
+color: #696969;
+margin-bottom: 30px;
+}
+
+.reply .input1 textarea 
+{
+width: 700px;
+height: 200px;
+padding-left: 10px;
+border-color: #f5f5f5;
+margin-bottom: 30px;
+padding: 15px;
+color: #696969;
+}
+
+.reply .input2 input[type="text"]
+{
+border-color:#f5f5f5;  
+width: 340px;
+height: 40px;
+padding: 15px;
+margin-bottom: 30px;
+color: #696969;
+margin-right: 20px;
+}
+
+.reply .input3 input[type="text"]
+{
+border-color: #f5f5f5; 
+width: 700px;
+height: 40px;
+margin-bottom: 30px;
+color: #A9A9A9;
+padding: 15px;
+}
+
+.reply .button input[type="btn"]
+{
+width: 210px;
+height:55px;
+color: #4169E1;
+border-color: #4169E1;
+background-color: #fff;
+cursor: pointer;
+text-align: center;
+}
+
+.reply .button input[type="btn"]:hover
+{
+border: none;
+color: #fff;
+background-color: #4169E1;
+}
+/*css for footer section*/
+.end
+{
+display: grid;
+grid-template-columns:1fr 2fr 1fr ;
+background-color: #000;
+height: 400px;
+}
+
+.end header
+{
+margin-top: 100px;
+margin-left: 90px;
+}
+.end nav
+{
+float: right;
+}
+
+.end .nav1 ul li
+{
+float: left;
+ margin-top: 100px;
+padding: 10px;
+}
+
+.end .nav2 ul li
+{
+float: right;
+margin-top: 100px;
+}
+
+.end  ul li a
+{
+color:#fff;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.end  ul li a :hover
+{
+color:#0000ff;
+}
+.end .nav2 li a
+{
+width: 50px;
+height: 50px;
+}
+
+.end .line hr
+{
+color: #eee;
+
+}
+
+.end .our-p
+ {
+ margin-top: 40px;
+color: #eee;
+}
+.end .our-p p
+{
+text-align: center;
+}
+.end .our-p a :
+{
+text-decoration: none;
+color: #fff;
+transition: 0.3s
+}
+.end .our-p a:hover
+{
+color: #0000ff;
+}

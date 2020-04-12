@@ -1,0 +1,205 @@
+/*css for gallery-image section*/
+.gallery-img
+{
+float: left;
+padding: 15px;
+margin-top: 50px;
+margin-left: 100px;
+}
+
+.gallery-img h1
+{
+margin: 40px 20px 30px 0px;
+font-family: arial;
+color: #696969;
+}
+/*css for list section*/
+.the-list
+{
+margin-top: 40px;
+margin: auto;
+width: 1250px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+font-family: arial;
+margin-bottom: 60px;
+}
+
+.the-list .header
+{
+color:#7B68EE;
+padding: 7px;
+}
+
+.the-list .header div
+{
+color: #696969;
+margin-bottom: 20px;
+}
+
+.the-list .unorderd-list div
+{
+color: #696969;
+margin-bottom: 20px;
+margin-left: 30px;
+}
+
+.elements
+{
+width: 1250px;
+margin: auto;
+display: grid;
+grid-template-columns:2fr 1fr;
+
+}
+
+.the-list  ul 
+{   
+list-style-type: none;
+
+}
+.the-list .unorderd-list ul li
+{
+color: #696969;
+font-size: 18px;
+font-family: serif;
+padding-bottom: 10px;
+list-style: none;
+}
+
+.the-list .unorderd-list .nested 
+{
+margin-left: 30px;
+padding:10px 0px 10px 0px;
+}
+
+.the-list .unorderd-list .nested .span1
+{
+margin-left: 10px;
+}
+
+.the-list .unorderd-list ul li img
+{
+padding-right: 10px;
+}
+.the-list .orderd-list ol li
+{
+list-style-type: none;
+color: #696969;
+font-size: 18px;
+padding-bottom: 10px;
+font-family: serif;
+color: #4169E1;
+font-weight: lighter;
+}
+
+.the-list .orderd-list ol li span
+{
+color: #ff0000;
+padding-right: 10px;
+
+}
+
+.the-list .orderd-list .nested2
+{
+margin-top: 30px;
+margin-left: 50px;
+}
+
+.the-list .orderd-list .nested3
+{
+margin-bottom: 30px;
+margin-left: 100px;
+}
+
+.the-list .orderd-list div
+{
+color: #696969;
+margin-bottom: 20px;
+margin-left: 30px;
+}
+
+.elements
+{
+width: 1250px;
+margin: auto;
+display: grid;
+grid-template-columns:2fr 1fr;
+margin-top: 40px;
+}
+.elements .form-element div
+{
+margin-top: 7px;
+border: none;
+color: #696969;
+
+font-weight:lighter;
+font-family: arial;
+}
+
+.elements .form-element div input[type="text"]
+{
+width: 710px;
+height:50px;
+border: none;
+background-color: #F5F5F5;
+padding-left: 15px;
+color: #696969;
+}
+.elements .form-element div input[type="message"]
+{
+width: 710px;
+height:110px;
+color: #696969;
+border: none;
+background-color: #F5F5F5;
+padding-left: 15px;
+}
+.elements .switches h1
+{
+color: #696969;padding-bottom: 30px;
+margin-left: 30px;
+}
+.elements .switches ol li
+{
+list-style: none;
+font-family: arial;
+font-size: medium;
+color: #696969;
+padding-bottom: 30px;
+}
+
+.elements .select-box select
+{
+border: none;
+background-color: #F5F5F5;
+width: 210px;
+height: 40px;text-align: center;
+cursor: pointer;
+margin-bottom: 25px;
+margin-left: 20px;
+}
+
+.elements .select-box select option {color: #696969;}
+.elements .select-box select option :hover
+{
+color:#ff0000;
+
+}
+.Checkbox h1
+{
+padding-top: 20px;
+margin-left:55px;
+}
+.check-box ol li input[type="checkbox"]
+{
+display: grid;
+grid-template-columns:1fr;
+margin-left: 220px;width: 18px;height: 18px;
+border: none;
+}
+
+.radios h1
+{
+margin-left: 30px;
+}
